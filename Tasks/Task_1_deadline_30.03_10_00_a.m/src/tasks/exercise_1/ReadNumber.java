@@ -1,4 +1,4 @@
-package tasks;
+package tasks.exercise_1;
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class ReadNumber {
         int ourCurrentNumber = 0;
         while(!scanner.hasNextInt()){
             scanner.nextLine();
-            System.out.println("Please! Enter number with data type -> "+"'int': ");
+            System.out.println("Please! Enter integer number...");
         }
         ourCurrentNumber = scanner.nextInt();
         return ourCurrentNumber;
