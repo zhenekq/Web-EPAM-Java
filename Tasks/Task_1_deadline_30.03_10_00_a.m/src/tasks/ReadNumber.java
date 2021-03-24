@@ -1,5 +1,6 @@
 package tasks;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class ReadNumber {
@@ -7,11 +8,10 @@ public class ReadNumber {
     public static int readOurCurrentNumber(){
         Scanner scanner = new Scanner(System.in);
         int ourCurrentNumber = 0;
-        while(!scanner.hasNextInt()){
+        while (!scanner.hasNextInt()) {
             scanner.nextLine();
-            System.out.println("Please! Enter integer number...");
+            System.out.println("Please! Enter correct number...");
         }
-        ourCurrentNumber = scanner.nextInt();
-        return ourCurrentNumber;
+        return scanner.nextInt();
     }
 }
