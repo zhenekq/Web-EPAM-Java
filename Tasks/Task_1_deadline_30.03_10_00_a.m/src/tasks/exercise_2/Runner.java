@@ -1,8 +1,5 @@
 package tasks.exercise_2;
 
-import tasks.exercise_1.ReadNumber;
-import tasks.exercise_2.YearAndMonth;
-
 public class Runner {
     public static void main(String[] args){
         int year,month;
