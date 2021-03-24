@@ -15,6 +15,7 @@ public class ReadMonthAndYear {
         System.out.println("Correct year! \n" + "Please enter your year again: ");
         return scanner.nextInt();
     }
+    @SuppressWarnings("resource")
     public static int readOurCurrentMonth(){
         Scanner scanner = new Scanner(System.in);
         int ourCurrentValue = 0;
