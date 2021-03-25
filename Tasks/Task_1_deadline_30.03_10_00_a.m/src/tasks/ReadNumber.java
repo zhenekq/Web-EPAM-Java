@@ -7,11 +7,19 @@ public class ReadNumber {
     @SuppressWarnings("resource")
     public static int readOurCurrentNumber(){
         Scanner scanner = new Scanner(System.in);
-        int ourCurrentNumber = 0;
         while (!scanner.hasNextInt()) {
             scanner.nextLine();
             System.out.println("Please! Enter correct number...");
         }
         return scanner.nextInt();
+    }
+    @SuppressWarnings("resource")
+    public static double readOurCurrentNumberDouble(){
+        Scanner scanner = new Scanner(System.in);
+        while (!scanner.hasNextDouble()) {
+            scanner.nextLine();
+            System.out.println("Please! Enter correct number...");
+        }
+        return scanner.nextDouble();
     }
 }
