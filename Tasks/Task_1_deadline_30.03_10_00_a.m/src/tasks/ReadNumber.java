@@ -1,4 +1,8 @@
 package tasks;
+/*
+ *Вы читаете комменатарии? :)))
+ * Я зря это коммитал что-ли? :(
+ */
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
