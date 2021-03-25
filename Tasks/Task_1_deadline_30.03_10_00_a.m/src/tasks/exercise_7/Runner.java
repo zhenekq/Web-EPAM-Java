@@ -2,8 +2,16 @@ package tasks.exercise_7;
 
 import tasks.ReadNumber;
 
+/*
+ * Runner
+ * Two points A (x1, y1) and B (x2, y2) are given. Create an algorithm that
+ * determines which of the points is closer to the origin. x y.
+ * Zhenya Vozny :)
+ */
+
 public class Runner {
-    public static void main(String[] args){
+    public static void main(String[] args) {
+
         System.out.println("Enter the coordinates of the first point... ");
         System.out.print("Enter x1: ");
         double coordinateOfFirstPointX = ReadNumber.readOurCurrentNumberDouble();
@@ -16,15 +24,15 @@ public class Runner {
         System.out.print("Enter y2: ");
         double coordinateOfSecondPointY = ReadNumber.readOurCurrentNumberDouble();
 
-        double lengthOfFirstPoint = MathOperations.distanceBetweenPoints(
-                coordinateOfFirstPointX, coordinateOfFirstPointY
-        );
-        double lengthOfSecondPoint = MathOperations.distanceBetweenPoints(
-                coordinateOfSecondPointX, coordinateOfSecondPointY
-        );
-        if(lengthOfFirstPoint > lengthOfSecondPoint)
+        double lengthOfFirstPoint = MathOperations.distanceBetweenPoints(coordinateOfFirstPointX,
+                                                                         coordinateOfFirstPointY);
+        double lengthOfSecondPoint = MathOperations.distanceBetweenPoints(coordinateOfSecondPointX,
+                                                                          coordinateOfSecondPointY);
+        if(lengthOfFirstPoint > lengthOfSecondPoint) {
             System.out.println("Second point is nearer than first point!");
-        else
+        }
+        else {
             System.out.println("First point is nearer than second point");
+        }
     }
 }

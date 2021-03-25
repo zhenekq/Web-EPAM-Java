@@ -2,6 +2,13 @@ package tasks.exercise_9;
 
 import tasks.ReadNumber;
 
+/*
+ * Runner
+ * Calculate the circumference and area of
+ * a circle with the same given radius R.
+ * Zhenya Vozny :)
+ */
+
 public class Runner {
     public static void main(String[] args){
 
@@ -13,11 +20,9 @@ public class Runner {
         }
 
         double lengthOfCircle = Radius.lengthOfCircle(radiusOfCircle);
-        System.out.println("Length of circle is : " +
-                lengthOfCircle);
+        System.out.println("Length of circle is : " + lengthOfCircle);
 
         double squareAreaOfCircle = Radius.squareAreaOfCircle(radiusOfCircle);
-        System.out.println("Square are of circle is : "
-                + squareAreaOfCircle);
+        System.out.println("Square are of circle is : " + squareAreaOfCircle);
     }
 }

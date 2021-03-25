@@ -1,5 +1,12 @@
 package tasks.exercise_3;
 
+/*
+ * SolveMathTasks
+ * Methods that find leg of big and little
+ * square and square area of little square
+ * Zhenya Vozny :)
+ */
+
 public class SolveMathTasks {
     public static double legOfBigSquare(double squareArea) {
         return Math.sqrt(squareArea);

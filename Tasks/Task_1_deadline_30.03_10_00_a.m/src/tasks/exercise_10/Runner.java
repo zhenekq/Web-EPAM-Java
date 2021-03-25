@@ -2,6 +2,13 @@ package tasks.exercise_10;
 
 import tasks.ReadNumber;
 
+/*
+ * Runner
+ * Write a program for calculating the values of the function F (x) on the segment [a, b] with step h.
+ * Result represent in the form of a table, the first column of which is the values of the argument,
+ *  the second is the corresponding function values. Function -> F(x) = tg(x)
+ * Zhenya Vozny :)
+ */
 
 public class Runner {
     public static void main(String[] args){
@@ -20,9 +27,6 @@ public class Runner {
         System.out.println("Result: \n");
         System.out.println("Border value | Value of Function");
         System.out.println("--------------------------------");
-        Solve.printResult(leftBorderOfFunction,
-                          rightBorderOfFunction,
-                          stepOfOurFunction
-        );
+        Solve.printResult(leftBorderOfFunction, rightBorderOfFunction, stepOfOurFunction);
     }
 }

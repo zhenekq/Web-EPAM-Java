@@ -3,6 +3,13 @@ package tasks;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/*
+ * ReadNumber
+ * Common class for scan numbers by keyboard
+ * for double and integer values
+ * Zhenya Vozny :)
+ */
+
 public class ReadNumber {
     @SuppressWarnings("resource")
     public static int readOurCurrentNumber(){
