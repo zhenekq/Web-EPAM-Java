@@ -9,10 +9,12 @@ package tasks.exercise_8;
 public class Functions {
 
     public static double xLowerThree(double x) {
-        return  1  / (Math.pow(x, 3) - 6);
+        double functionResult = 1  / (Math.pow(x, 3) - 6);
+        return functionResult;
     }
 
     public static double xEqualsOrMoreThanThree(double x) {
-        return -1 * x * x + 3 * x + 9;
+        double functionResult = -1 * x * x + 3 * x + 9;
+        return functionResult;
     }
 }

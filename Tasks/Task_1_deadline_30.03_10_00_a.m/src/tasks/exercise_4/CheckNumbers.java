@@ -9,7 +9,8 @@ package tasks.exercise_4;
 
 public class CheckNumbers {
     public static boolean isNumberEven(int number){
-        return number % 2 == 0;
+        boolean isEven = number % 2 == 0;
+        return isEven;
     }
     public static boolean isEvenNumberMoreThanTwo(boolean firstNumber, boolean secondNumber,
                                                    boolean thirdNumber, boolean fourthNumber){
@@ -22,6 +23,7 @@ public class CheckNumbers {
             howMuchEvenNumbers++;
         if(fourthNumber)
             howMuchEvenNumbers++;
-        return howMuchEvenNumbers >= 2;
+        boolean isMoreThanTwo = howMuchEvenNumbers >= 2;
+        return isMoreThanTwo;
     }
 }

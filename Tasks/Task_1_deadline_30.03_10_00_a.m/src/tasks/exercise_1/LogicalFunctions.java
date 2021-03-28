@@ -9,10 +9,12 @@ package tasks.exercise_1;
 public class LogicalFunctions {
 
     public static int lastDigitOfOurCurrentNumber(int ourCurrentNumber) {
-        return ourCurrentNumber % 10;
+        int lastDigit = ourCurrentNumber % 10;
+        return lastDigit;
     }
 
     public static int lastDigitOfOurCurrentNumberInSquare(int lastDigit) {
-        return lastDigit * lastDigit;
+        int lastDigitInSquare = lastDigit * lastDigit;
+        return lastDigitInSquare;
     }
 }

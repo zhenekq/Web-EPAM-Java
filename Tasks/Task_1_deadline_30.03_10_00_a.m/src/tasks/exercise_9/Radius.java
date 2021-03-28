@@ -10,10 +10,12 @@ package tasks.exercise_9;
 public class Radius {
 
     public static double lengthOfCircle(double radius) {
-        return 2 * Math.PI * radius;
+        double length = 2 * Math.PI * radius;
+        return length;
     }
 
     public static double squareAreaOfCircle(double radius) {
-        return Math.PI * radius * radius;
+        double squareArea = Math.PI * radius * radius;
+        return squareArea;
     }
 }
