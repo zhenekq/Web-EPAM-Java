@@ -10,7 +10,7 @@ package by.epamtc.task.exercise_2;
 public class Check {
 
     public static boolean isLeapYear(int year) {
-        boolean isLeap = year % 4 == 0 && year != 0;
+        boolean isLeap = year % 4 == 0 && (year % 100 != 0 || year % 400 == 0 ) && year != 0;
         return isLeap;
     }
 
